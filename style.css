@@ -1,0 +1,37 @@
+
+@import "tailwindcss";
+
+body{
+    
+    background-size: cover;
+}
+
+.head{
+    
+    margin: 1rem;
+    display: grid;
+    justify-content: space-around;
+    align-self: center;
+}
+.head .heading{ 
+    padding: 1rem;
+    margin: 0.5rem;
+    
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+  }
+.body{
+    margin: 12rem 0rem 0rem 0rem;
+    display: grid;
+    justify-content: space-around;
+    align-self: center;
+}
+button{
+    margin-left: 33%;
+ 
+}
+.body .quote{
+    
+}
