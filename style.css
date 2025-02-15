@@ -3,7 +3,7 @@
 
 body{
     
-    background-size: cover;
+    background-size :contain;
 }
 
 .head{
@@ -23,15 +23,19 @@ body{
     font-size: 2.5rem;
   }
 .body{
-    margin: 12rem 0rem 0rem 0rem;
+    margin: 8rem 0rem 0rem 0rem;
     display: grid;
     justify-content: space-around;
     align-self: center;
 }
 button{
-    margin-left: 33%;
+    align-content: center;
+   
  
 }
 .body .quote{
+    background-color: rgba(137, 43, 226, 0.5);
+    border-radius: 1rem;
+    margin: 1.75rem;
     
 }
