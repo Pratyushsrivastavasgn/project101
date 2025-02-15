@@ -4,9 +4,9 @@ const newQuoteBtn = document.getElementById("new-quote");
 
 async function fetchQuote() {
     try {
-        const response = await fetch("https://api.quotable.io/random");
+        const response = await fetch("https://quotes-api-self.vercel.app/quote");
         const data = await response.json();
-        quoteText.textContent = `"${data.content}"`;
+        quoteText.textContent = `"${data.quote}"`;
         quoteAuthor.textContent = `- ${data.author}`;
     } catch (error) {
           "Oops! CoulquoteText.textContentd not fetch a quote.";
